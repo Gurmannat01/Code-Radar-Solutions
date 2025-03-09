@@ -6,18 +6,18 @@ int main(){
         printf("A");
     }
     else if(marks<90 && marks>=80){
-        printf("B")
+        printf("B");
     }
     else if(marks<80 && marks>=70){
-        printf("C")
+        printf("C");
     }
         else if(marks<70 && marks>=60){
-        printf("D")
+        printf("D");
     }
         else if(marks<60){
-        printf("F")
+        printf("F");
     }
         else{
-        printf("Enter valid number")
+        printf("Enter valid number");
     }
 }
