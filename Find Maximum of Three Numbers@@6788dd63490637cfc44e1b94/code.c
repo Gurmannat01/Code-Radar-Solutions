@@ -12,6 +12,6 @@ int main (){
         printf("%d",c);   
     }
     else{
-        printf("Error")
+        printf("Error");
     }
 }
