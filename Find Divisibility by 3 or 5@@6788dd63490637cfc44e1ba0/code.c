@@ -12,6 +12,6 @@ int main(){
         printf("Divisible by 3");
     }
     else{
-        printf("Invalid");
+        printf("Not Divisible");
     }
 }
