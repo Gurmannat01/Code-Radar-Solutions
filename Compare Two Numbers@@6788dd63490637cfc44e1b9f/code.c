@@ -3,7 +3,7 @@ int main(){
     int a,b;
     scanf("%d %d",&a,&b);
     if(a>b){
-        printf("Frist");
+        printf("First");
     }
     else if(a<b){
         printf("Second");
