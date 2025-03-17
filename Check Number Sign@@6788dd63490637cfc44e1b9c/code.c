@@ -12,6 +12,6 @@ int main (){
         printf("Negative");
     }
     else{
-        printf("Invalid Number")
+        printf("Invalid Number");
     }
 }
