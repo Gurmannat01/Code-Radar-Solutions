@@ -5,7 +5,13 @@ int main (){
     bool isprime=true;
     scanf("%d",&a);
     for(int i=2;i<=a;i++){
-        if(a%i==0){
+        if (a<=1){
+            isprime=true;
+        }
+        else if(a==2){
+            isprime=true;
+        }
+       else if(a%i==0){
             isprime=false;
         }
         else{
