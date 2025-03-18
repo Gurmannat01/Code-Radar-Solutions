@@ -22,10 +22,11 @@ int main (){
             }
         }
        }
-    }
-    if(isprime==true){
+       if(isprime==true){
         printf("Prime");
     }
     else{
         printf("Not Prime");
     }
+    }
+    
