@@ -4,19 +4,24 @@ int main (){
     int a;
     bool isprime=true;
     scanf("%d",&a);
-    for(int i=2;i<=a-1;i++){
+
         if (a<=1){
             isprime=true;
         }
         else if(a==2){
             isprime=true;
         }
-       else if(a%i==0){
-            isprime=false;
+       else if(a%2==0){
+        isprime=false;
+       }
+       else{
+        for(int i=3;i*i<=a;i+=2){
+            if(a%i==0){
+                isprime=false;
+                break;
+            }
         }
-        else{
-            isprime=true;
-        }
+       }
     }
     if(isprime==true){
         printf("Prime");
@@ -24,4 +29,3 @@ int main (){
     else{
         printf("Not Prime");
     }
-}
