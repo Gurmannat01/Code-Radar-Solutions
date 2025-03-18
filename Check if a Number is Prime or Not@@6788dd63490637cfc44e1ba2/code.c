@@ -4,7 +4,7 @@ int main (){
     int a;
     bool isprime=true;
     scanf("%d",&a);
-    for(int i=2;i<=n;i++){
+    for(int i=2;i<=a;i++){
         if(a%i==0){
             isprime=false;
         }
